@@ -1,9 +1,6 @@
 pip install ttkthemes
-
 import tkinter as tk
-
 from tkinter import ttk
-
 from googletrans import Translator, LANGUAGES
 def translate_text():
     try:
@@ -64,5 +61,4 @@ screen_height = root.winfo_screenheight()
 x = (screen_width - root.winfo_reqwidth()) // 2
 y = (screen_height - root.winfo_reqheight()) // 2
 root.geometry("+{}+{}".format(x, y))
-
 root.mainloop()
